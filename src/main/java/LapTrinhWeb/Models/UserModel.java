@@ -9,9 +9,15 @@ public class UserModel implements Serializable {
 	private static final long serialVersionUID = 1L;
 	
 	private int id;
+<<<<<<< HEAD
 	private String fullname;
 	private String email;
 	private String username;
+=======
+	private String username;
+	private String email;
+	private String fullname;
+>>>>>>> 92743ec08db4237bf0dc1ebdec3e8409478abec6
 	private String password;
 	private String image;
 	private int roleid;
@@ -74,6 +80,7 @@ public class UserModel implements Serializable {
 		this.createDate = createDate;
 	}
 	
+<<<<<<< HEAD
 	
 	public UserModel() {
 		super();
@@ -85,6 +92,21 @@ public class UserModel implements Serializable {
 		this.fullname = fullname;
 		this.email = email;
 		this.username = username;
+=======
+	// Constructor
+	public UserModel() {
+		super();
+		
+	}
+
+	public UserModel(int id, String username, String email, String fullname, String password, String image, int roleid,
+			String phone, Date createDate) {
+		super();
+		this.id = id;
+		this.username = username;
+		this.email = email;
+		this.fullname = fullname;
+>>>>>>> 92743ec08db4237bf0dc1ebdec3e8409478abec6
 		this.password = password;
 		this.image = image;
 		this.roleid = roleid;
@@ -92,6 +114,7 @@ public class UserModel implements Serializable {
 		this.createDate = createDate;
 	}
 	
+<<<<<<< HEAD
 	
 
 	public UserModel(String fullname, String email, String username, String password) {
@@ -101,6 +124,16 @@ public class UserModel implements Serializable {
 		this.username = username;
 		this.password = password;
 	}
+=======
+	public UserModel(String username, String email, String fullname, String password) {
+		super();
+		this.username = username;
+		this.email = email;
+		this.fullname = fullname;
+		this.password = password;
+	}
+	
+>>>>>>> 92743ec08db4237bf0dc1ebdec3e8409478abec6
 	// override
 	@Override
 	public String toString() {
