@@ -3,7 +3,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-<<<<<<< HEAD
     <meta charset="UTF-8">
     <title>User</title>
     <style>
@@ -58,12 +57,3 @@
 
 </body>
 </html>
-=======
-<meta charset="UTF-8">
-<title>Insert title here</title>
-</head>
-<body>
-	Trang chủ của user
-</body>
-</html>
->>>>>>> 92743ec08db4237bf0dc1ebdec3e8409478abec6

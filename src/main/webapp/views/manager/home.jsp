@@ -1,6 +1,9 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> af40996 (update file)
 <!DOCTYPE html>
 <html>
 <head>
@@ -42,6 +45,7 @@
 
         button:hover {
             background-color: #45a049;
+<<<<<<< HEAD
 =======
 <%@ taglib prefix="c" uri = "jakarta.tags.core" %>
 <%@ taglib prefix="fmt" uri = "jakarta.tags.fmt" %>
@@ -157,12 +161,17 @@
                 margin: 5px;
             }
 >>>>>>> 92743ec08db4237bf0dc1ebdec3e8409478abec6
+=======
+>>>>>>> af40996 (update file)
         }
     </style>
 </head>
 <body>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> af40996 (update file)
     <div>
         <h1>Welcome, Manager!</h1>
 
@@ -172,6 +181,7 @@
         </form>
     </div>
 
+<<<<<<< HEAD
 =======
     <!-- Login Form -->
     <div class="container">
@@ -230,5 +240,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"></script>
 
 >>>>>>> 92743ec08db4237bf0dc1ebdec3e8409478abec6
+=======
+>>>>>>> af40996 (update file)
 </body>
 </html>

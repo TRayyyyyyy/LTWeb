@@ -43,7 +43,7 @@ public class UserDaoImp implements IUserDao {
 	
 
 	@Override
-<<<<<<< HEAD
+
 	public void insert(UserModel user) {
 	    String sql = "insert into users (fullname, email, username, password, roleid) values (?, ?, ?, ?, ?)";
 	    try {
@@ -60,27 +60,6 @@ public class UserDaoImp implements IUserDao {
 	        ex.printStackTrace();
 	    }
 	}
-
-
-=======
-	public void insertregister(UserModel user) {
-		String sql = "insert into users (email,username, fullname, password, roleid) values (?, ?, ?, ?, ?)";
-		try {
-			conn = new DBConnection().getConnection();
-			ps = conn.prepareStatement(sql);
-			ps.setString(1, user.getEmail());
-			ps.setString(2, user.getUsername());
-			ps.setString(3, user.getFullname());
-			ps.setString(4, user.getPassword());
-			ps.setInt(5, user.getRoleid());
-			
-			ps.executeUpdate();
-		}catch(Exception ex) {
-			ex.printStackTrace();
-		}
-	}
-
->>>>>>> 92743ec08db4237bf0dc1ebdec3e8409478abec6
 	@Override
 	public List<UserModel> findAll() {
 		List<UserModel> users = new ArrayList<>();
@@ -217,5 +196,7 @@ public class UserDaoImp implements IUserDao {
 
         return isUpdated;
 	}
+
+
 
 }
