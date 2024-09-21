@@ -37,7 +37,7 @@ public class UserServiceImp implements IUserService {
 	}
 
 	@Override
-	public boolean register(String email, String password, String username, String fullname) {
+	public boolean register(String fullname, String email, String username, String password) {
 		if(userDao.checkExsitEmail(email)) {
 			return false;
 		}

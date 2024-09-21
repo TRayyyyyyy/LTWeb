@@ -4,7 +4,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Manager</title>
+    <title>Admin</title>
     <style>
         body {
             display: flex;
@@ -47,7 +47,7 @@
 <body>
 
     <div>
-        <h1>Welcome, Manager!</h1>
+        <h1>Welcome, Admin!</h1>
 
         <!-- Logout Button -->
         <form action="${pageContext.request.contextPath}/logout" method="get">
