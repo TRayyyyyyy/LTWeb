@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
+<<<<<<< HEAD
 	<name>LapTrinhWebST2</name>
+=======
+	<name>LTWeb</name>
+>>>>>>> f090c719ff74a9954556a9eb83801b89e671d6eb
 	<comment></comment>
 	<projects>
 	</projects>
@@ -34,6 +38,7 @@
 		<nature>org.eclipse.wst.common.project.facet.core.nature</nature>
 		<nature>org.eclipse.wst.jsdt.core.jsNature</nature>
 	</natures>
+<<<<<<< HEAD
 	<filteredResources>
 		<filter>
 			<id>1727148243808</id>
@@ -45,4 +50,6 @@
 			</matcher>
 		</filter>
 	</filteredResources>
+=======
+>>>>>>> f090c719ff74a9954556a9eb83801b89e671d6eb
 </projectDescription>

@@ -71,7 +71,11 @@
             Register Form
         </div>
 
+<<<<<<< HEAD
         <form action="http://localhost:8080/LapTrinhWebST2/register" method="post">
+=======
+        <form action="http://localhost:8080/LTWeb/register" method="post">
+>>>>>>> f090c719ff74a9954556a9eb83801b89e671d6eb
             <c:if test="${alert != null}">
                 <h3 class="alert alert-danger">${alert}</h3>
             </c:if>

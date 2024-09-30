@@ -22,4 +22,7 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+<<<<<<< HEAD
 /src/main/webapp/assets
+=======
+>>>>>>> f090c719ff74a9954556a9eb83801b89e671d6eb

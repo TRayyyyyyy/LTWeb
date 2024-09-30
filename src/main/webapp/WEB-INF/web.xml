@@ -5,6 +5,7 @@
 	version="3.1">
 
 	<welcome-file-list>
+<<<<<<< HEAD
         <welcome-file>index.jsp</welcome-file>
     </welcome-file-list>
     <filter>
@@ -21,4 +22,10 @@
 	<session-config>
 		<tracking-mode>COOKIE</tracking-mode>
 	</session-config>
+=======
+		<welcome-file>views/login.jsp</welcome-file>
+		<welcome-file>home.jsp</welcome-file>
+	</welcome-file-list>
+
+>>>>>>> f090c719ff74a9954556a9eb83801b89e671d6eb
 </web-app>

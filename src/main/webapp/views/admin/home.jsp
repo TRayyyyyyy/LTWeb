@@ -4,7 +4,11 @@
 <html>
 <head>
     <meta charset="UTF-8">
+<<<<<<< HEAD
     <title>ADMIN</title>
+=======
+    <title>Admin</title>
+>>>>>>> f090c719ff74a9954556a9eb83801b89e671d6eb
     <style>
         body {
             display: flex;
