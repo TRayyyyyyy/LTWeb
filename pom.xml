@@ -3,11 +3,8 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>VT01</groupId>
-<<<<<<< HEAD
-	<artifactId>LTWeb</artifactId>
-=======
+
 	<artifactId>LapTrinhWebST2</artifactId>
->>>>>>> f090c719ff74a9954556a9eb83801b89e671d6eb
 	<version>1.1.0</version>
 	<packaging>war</packaging>
 	<dependencies>
@@ -17,10 +14,6 @@
 			<version>4.0.0</version>
 			<scope>provided</scope>
 		</dependency>
-<<<<<<< HEAD
-		
-=======
->>>>>>> f090c719ff74a9954556a9eb83801b89e671d6eb
 		<dependency>
 			<groupId>javax.servlet</groupId>
 			<artifactId>javax.servlet-api</artifactId>
