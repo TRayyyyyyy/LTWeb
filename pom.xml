@@ -42,11 +42,7 @@
 			<version>1.2</version>
 		</dependency>
 
-<<<<<<< HEAD
-		<!--JSP API-->
-=======
 		 <!--JSP API--> 
->>>>>>> f090c719ff74a9954556a9eb83801b89e671d6eb
 		<dependency>
 			<groupId>javax.servlet.jsp</groupId>
 			<artifactId>javax.servlet.jsp-api</artifactId>
@@ -54,11 +50,7 @@
 			<scope>provided</scope>
 		</dependency>
 
-<<<<<<< HEAD
-		<!--Servlet API-->
-=======
 		 <!--Servlet API--> 
->>>>>>> f090c719ff74a9954556a9eb83801b89e671d6eb
 		<dependency>
 			<groupId>javax.servlet</groupId>
 			<artifactId>javax.servlet-api</artifactId>
@@ -72,11 +64,7 @@
 			<groupId>jakarta.servlet.jsp.jstl</groupId>
 			<artifactId>jakarta.servlet.jsp.jstl-api</artifactId>
 			<version>3.0.2</version>
-<<<<<<< HEAD
-		</dependency>  
-=======
 		</dependency>
->>>>>>> f090c719ff74a9954556a9eb83801b89e671d6eb
 
 		<!--
 		https://mvnrepository.com/artifact/jakarta.servlet.jsp/jakarta.servlet.jsp-api -->
@@ -94,7 +82,6 @@
 			<artifactId>jakarta.servlet.jsp.jstl</artifactId>
 			<version>3.0.1</version>
 		</dependency>
-<<<<<<< HEAD
 		
 		<!-- ... other dependencies -->
 		<dependency>
@@ -102,8 +89,6 @@
 			<artifactId>sitemesh</artifactId>
 			<version>3.2.1</version>
 		</dependency>
-=======
->>>>>>> f090c719ff74a9954556a9eb83801b89e671d6eb
 
 
 	</dependencies>
